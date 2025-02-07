@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BillyPixSDK",
-            url: "https://ios.cdn.billypx.com/BillyPixSDK/BillyPixSDK-0.0.6.zip",
-            checksum: "047cd10acbc6a089221342b8e784376da333d6284c62b9027bb2a5b2ede7cc49"
+            url: "https://ios.cdn.billypx.com/BillyPixSDK/BillyPixSDK-0.0.7.zip",
+            checksum: "5ea5f4046e4b60ebd93f1143f30cc1a3b556ccd44424bdb91bd04e42251410a3"
         ),
     ],
     swiftLanguageVersions: [.v5]
