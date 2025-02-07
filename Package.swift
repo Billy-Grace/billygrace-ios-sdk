@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BillyPixSDK",
-            url: "https://ios.cdn.billypx.com/BillyPixSDK/BillyPixSDK-0.0.7.zip",
-            checksum: "5ea5f4046e4b60ebd93f1143f30cc1a3b556ccd44424bdb91bd04e42251410a3"
+            url: "https://ios.cdn.billypx.com/BillyPixSDK/BillyPixSDK-0.0.8.zip",
+            checksum: "e126bc51e1201c587a3203f66636ae96c7cd29620956984261e49785cbfc758f"
         ),
     ],
     swiftLanguageVersions: [.v5]
