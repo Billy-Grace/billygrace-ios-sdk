@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "BillyPixSDK",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BillyPixSDK",
-            url: "https://ios.cdn.billypx.com/BillyPixSDK/BillyPixSDK-0.0.10.zip",
-            checksum: "2205edbf527c7336ac9438a740c43511e36da1f6ec239f335163a8b3eb010d62"
+            url: "https://ios.cdn.billypx.com/BillyPixSDK/BillyPixSDK-0.0.11.zip",
+            checksum: "b24d091387ed85b21a461b1c6688771d7fe08f31a88761b4e0b52871af39d516"
         ),
     ],
     swiftLanguageVersions: [.v5]
